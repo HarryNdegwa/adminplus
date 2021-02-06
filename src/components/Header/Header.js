@@ -5,7 +5,7 @@ const HeaderWrapper = styled.div`
   background-color: #343d46;
   height: 70px;
   width: 100%;
-  position: webkit-sticky;
+  position: -webkit-sticky;
   position: sticky;
   top: 0px;
 `;
