@@ -12,10 +12,8 @@ function Home(props) {
   return (
     <div style={{ height: "2000px" }}>
       <Header />
-      <MainWrapper className="container-fluid">
-        <div className="row">
-          <SideBar />
-        </div>
+      <MainWrapper>
+        <SideBar />
       </MainWrapper>
     </div>
   );

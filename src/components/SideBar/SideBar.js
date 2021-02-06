@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const SideBarWrapper = styled.div`
-  background-color: red;
+  background-color: #343d46;
   height: calc(100vh - 70px);
   position: -webkit-sticky;
   position: sticky;
@@ -11,7 +11,9 @@ const SideBarWrapper = styled.div`
 `;
 
 function SideBar(props) {
-  return <SideBarWrapper className="col-md-2"></SideBarWrapper>;
+  return (
+    <SideBarWrapper className="col-md-2 d-none d-lg-block"></SideBarWrapper>
+  );
 }
 
 export default SideBar;
