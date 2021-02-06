@@ -1,8 +1,23 @@
+:root {
+  --header-height: 80px;
+}
+
+html {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body::-webkit-scrollbar {
   width: 10px;
   background-color: #38424b;
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #343d46;
+  background-color: #d4d4d4;
+  border-radius: 10px;
 }
