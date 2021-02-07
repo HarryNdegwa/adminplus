@@ -26,7 +26,7 @@ function TopHeader(props) {
       className="d-flex justify-content-end align-items-center"
       aria-label="breadcrumb"
     >
-      <ol className="breadcrumb">
+      <ol className="breadcrumb m-0 p-0">
         <li className="breadcrumb-item">
           <BreadCrumbLinkWrapper href="#">Home</BreadCrumbLinkWrapper>
         </li>

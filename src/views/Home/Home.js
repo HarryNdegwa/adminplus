@@ -3,6 +3,7 @@ import Header from "../../components/Header/Header";
 import styled from "styled-components";
 import SideBar from "../../components/SideBar/SideBar";
 import TopHeader from "../../components/Main/TopHeader";
+import SummaryCards from "../../components/Main/SummaryCards";
 
 const MainWrapper = styled.main`
   background-color: #38424b;
@@ -13,6 +14,9 @@ const MainWrapper = styled.main`
 const MainRightSideBar = styled.div`
   width: 79%;
   //   padding: 20px 0;  Replace this with the breadcrumb header
+  @media (max-width: 991px) {
+    width: 100%;
+  }
 `;
 
 function Home(props) {
@@ -24,6 +28,7 @@ function Home(props) {
         <MainRightSideBar className="float-end">
           <div className="container">
             <TopHeader />
+            <SummaryCards />
           </div>
         </MainRightSideBar>
       </MainWrapper>
