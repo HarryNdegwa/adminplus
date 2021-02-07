@@ -12,8 +12,7 @@ const MainWrapper = styled.main`
 `;
 
 const MainRightSideBar = styled.div`
-  width: 79%;
-  //   padding: 20px 0;  Replace this with the breadcrumb header
+  width: 80%;
   @media (max-width: 991px) {
     width: 100%;
   }

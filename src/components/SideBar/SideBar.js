@@ -7,7 +7,7 @@ const SideBarWrapper = styled.div`
   position: sticky;
   height: calc(100vh - var(--header-height));
   top: var(--header-height);
-  width: 21%;
+  width: 20%;
 `;
 
 function SideBar(props) {
