@@ -3,11 +3,10 @@ import styled from "styled-components";
 
 const SideBarWrapper = styled.div`
   background-color: #343d46;
-  position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
   height: calc(100vh - var(--header-height));
   top: var(--header-height);
-  width: 18%;
+  width: 18.5%;
 `;
 
 function SideBar(props) {

@@ -1,9 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 
-{
-  /* <AiFillHome/> */
-}
 const TopHeaderWrapper = styled.nav`
   height: 70px;
   width: 100%;

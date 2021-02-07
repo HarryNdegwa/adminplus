@@ -7,8 +7,12 @@ import SummaryCards from "../../components/Main/SummaryCards";
 import Graphs from "../../components/Main/Graphs";
 import Charts from "../../components/Main/Charts";
 
-const MainWrapper = styled.main`
+const HomeWrapper = styled.div`
+  min-height: 100vh;
   background-color: #38424b;
+`;
+
+const MainWrapper = styled.main`
   color: #fff;
   height: 100%;
 `;
@@ -23,7 +27,7 @@ const MainRightSideBar = styled.div`
 
 function Home(props) {
   return (
-    <div style={{ height: "2500px" }}>
+    <HomeWrapper>
       <Header />
       <MainWrapper>
         <SideBar />
@@ -36,7 +40,7 @@ function Home(props) {
           </div>
         </MainRightSideBar>
       </MainWrapper>
-    </div>
+    </HomeWrapper>
   );
 }
 
