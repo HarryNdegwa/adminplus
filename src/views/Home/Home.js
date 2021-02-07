@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../../components/Header/Header";
 import styled from "styled-components";
 import SideBar from "../../components/SideBar/SideBar";
+import TopHeader from "../../components/Main/TopHeader";
 
 const MainWrapper = styled.main`
   background-color: #38424b;
@@ -22,8 +23,7 @@ function Home(props) {
         <SideBar />
         <MainRightSideBar className="float-end">
           <div className="container">
-            <h3>Helloo World</h3>
-            <p>The quick brown fox jumped over the lazy dog</p>
+            <TopHeader />
           </div>
         </MainRightSideBar>
       </MainWrapper>
