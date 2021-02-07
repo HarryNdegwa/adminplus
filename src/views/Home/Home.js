@@ -5,6 +5,7 @@ import SideBar from "../../components/SideBar/SideBar";
 import TopHeader from "../../components/Main/TopHeader";
 import SummaryCards from "../../components/Main/SummaryCards";
 import Graphs from "../../components/Main/Graphs";
+import Charts from "../../components/Main/Charts";
 
 const MainWrapper = styled.main`
   background-color: #38424b;
@@ -14,6 +15,7 @@ const MainWrapper = styled.main`
 
 const MainRightSideBar = styled.div`
   width: 82%;
+  background-color: #38424b;
   @media (max-width: 1199px) {
     width: 100%;
   }
@@ -21,7 +23,7 @@ const MainRightSideBar = styled.div`
 
 function Home(props) {
   return (
-    <div style={{ height: "2000px" }}>
+    <div style={{ height: "2500px" }}>
       <Header />
       <MainWrapper>
         <SideBar />
@@ -30,6 +32,7 @@ function Home(props) {
             <TopHeader />
             <SummaryCards />
             <Graphs />
+            <Charts />
           </div>
         </MainRightSideBar>
       </MainWrapper>
