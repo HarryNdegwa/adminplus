@@ -12,8 +12,8 @@ const MainWrapper = styled.main`
 `;
 
 const MainRightSideBar = styled.div`
-  width: 80%;
-  @media (max-width: 991px) {
+  width: 82%;
+  @media (max-width: 1199px) {
     width: 100%;
   }
 `;

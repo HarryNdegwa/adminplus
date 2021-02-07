@@ -30,19 +30,27 @@ function SummaryCards(props) {
   return (
     <SummaryCardsWrapper className="row gy-3">
       <div className="col-md-6 col-lg-3">
-        <div className="card1 summary-card">Heloo</div>
+        <div className="p-4 p-lg-3 card1 summary-card">
+          <h5>Orders Received</h5>
+        </div>
       </div>
 
       <div className="col-md-6 col-lg-3">
-        <div className="card2 summary-card">Heloo</div>
+        <div className="p-4 p-lg-3 card2 summary-card">
+          <h5 className="fs-lg-6">Completed Orders</h5>
+        </div>
       </div>
 
       <div className="col-md-6 col-lg-3">
-        <div className="card3 summary-card">Heloo</div>
+        <div className="p-4 p-lg-3 card3 summary-card">
+          <h5>New Orders</h5>
+        </div>
       </div>
 
       <div className="col-md-6 col-lg-3">
-        <div className="card4 summary-card">Heloo</div>
+        <div className="p-4 p-lg-3 card4 summary-card">
+          <h5>Total Earnings</h5>
+        </div>
       </div>
     </SummaryCardsWrapper>
   );

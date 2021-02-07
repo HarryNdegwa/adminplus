@@ -7,12 +7,12 @@ const SideBarWrapper = styled.div`
   position: sticky;
   height: calc(100vh - var(--header-height));
   top: var(--header-height);
-  width: 20%;
+  width: 18%;
 `;
 
 function SideBar(props) {
   return (
-    <SideBarWrapper className="d-none d-lg-block float-start">
+    <SideBarWrapper className="d-none d-xl-block float-start">
       <h3>Helloo</h3>
     </SideBarWrapper>
   );
