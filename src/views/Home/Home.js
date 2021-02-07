@@ -4,6 +4,7 @@ import styled from "styled-components";
 import SideBar from "../../components/SideBar/SideBar";
 import TopHeader from "../../components/Main/TopHeader";
 import SummaryCards from "../../components/Main/SummaryCards";
+import Graphs from "../../components/Main/Graphs";
 
 const MainWrapper = styled.main`
   background-color: #38424b;
@@ -28,6 +29,7 @@ function Home(props) {
           <div className="container">
             <TopHeader />
             <SummaryCards />
+            <Graphs />
           </div>
         </MainRightSideBar>
       </MainWrapper>
