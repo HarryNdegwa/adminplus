@@ -11,13 +11,13 @@ const GraphsWrapper = styled.div`
 
 function Graphs(props) {
   return (
-    <GraphsWrapper className="row my-5">
-      <div className="col-md-6">
+    <GraphsWrapper className="row my-3 gy-2">
+      <div className="col-lg-6">
         <div className="graph p-3">
           <h3>Helloo</h3>
         </div>
       </div>
-      <div className="col-md-6">
+      <div className="col-lg-6">
         <div className="graph p-3">
           <h3>Helloo</h3>
         </div>
