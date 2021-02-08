@@ -14,12 +14,12 @@ function Graphs(props) {
     <GraphsWrapper className="row my-3 gy-4">
       <div className="col-lg-6">
         <div className="graph p-3">
-          <h3>Helloo</h3>
+          <h3>Helloo World</h3>
         </div>
       </div>
       <div className="col-lg-6">
         <div className="graph p-3">
-          <h3>Helloo</h3>
+          <h3>Helloo World</h3>
         </div>
       </div>
     </GraphsWrapper>
