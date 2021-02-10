@@ -14,18 +14,18 @@ function Charts(props) {
     <ChartsWrapper className="row my-3 gy-4">
       <div className="col-md-6 col-lg-4">
         <div className="chart p-2">
-          <h3>Helloo World</h3>
+          <h3>Helloo World dudes</h3>
         </div>
       </div>
       <div className="col-md-6 col-lg-4">
         <div className="chart p-2">
-          <h3>Helloo World</h3>
+          <h3>Helloo World dudes</h3>
         </div>
       </div>
 
       <div className="col-md-6 col-lg-4">
         <div className="chart p-2">
-          <h3>Helloo World</h3>
+          <h3>Helloo World dudes</h3>
         </div>
       </div>
     </ChartsWrapper>
