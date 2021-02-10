@@ -12,7 +12,7 @@ const SideBarWrapper = styled.div`
 function SideBar(props) {
   return (
     <SideBarWrapper className="d-none d-xl-block float-start">
-      <h3>Helloo World</h3>
+      <h3>Helloo World Dudes</h3>
     </SideBarWrapper>
   );
 }
